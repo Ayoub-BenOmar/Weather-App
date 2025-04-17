@@ -4,7 +4,7 @@ const BASE_URL = 'https://api.openweathermap.org/data/3.0';
 // Check if API key is set
 if (!API_KEY) {
     alert('Veuillez configurer votre clé API OpenWeatherMap dans le fichier weather.js');
-    throw new Error('API key not configured');
+    throw new Error('API key is not configured');
 }
 
 const searchBtn = document.getElementById('search-btn');
